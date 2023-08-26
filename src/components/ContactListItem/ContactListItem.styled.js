@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 
-
 export const SearchList = styled.ul`
   padding: 0px;
   margin: 0px;
