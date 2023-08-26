@@ -9,8 +9,6 @@ import { useEffect } from "react";
 import { fetchContacts } from "redux/operations";
 
 const App = () => {
-
-
   const isLoading = useSelector(selectIsLoading);
   const error = useSelector(selectError);
   const dispatch = useDispatch();
